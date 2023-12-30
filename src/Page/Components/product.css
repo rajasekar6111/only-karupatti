@@ -1,0 +1,21 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex.zoomed img {
+    width: 50%;
+    transition: width 0.3s ease;
+  }
+  
+  .flex.zoomed img:hover {
+    cursor: zoom-out;
+  }
+  
+  .flex img:hover {
+    cursor: zoom-in;
+  }
