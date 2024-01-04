@@ -3,13 +3,17 @@
   padding: 1px;
   text-align: center;
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
+}
+
+.offer:hover {
+  text-decoration: underline;
 }
 
 
 .header {
-  position:sticky ;
+  position: sticky;
   top: 0;
   background-color: rgb(253, 253, 251);
   justify-content: space-between;
@@ -24,6 +28,15 @@
   align-items: center;
   column-gap: 20px;
   cursor: pointer;
+}
+
+.head-text p {
+  margin: 0;
+  text-decoration: none;
+}
+
+.head-text p:hover {
+  text-decoration: underline;
 }
 
 .flex {
@@ -88,4 +101,40 @@ input[type="email"] {
 
 input[type="email"]:hover {
   border-color: #080808;
+}
+
+h5 {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h5:hover {
+  text-decoration: underline;
+}
+
+div[style*="margin-left: 15px"] {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+div[style*="margin-left: 15px"]:hover {
+  text-decoration: underline;
+}
+
+.flex-column div p {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.flex-column div p:hover {
+  text-decoration: underline;
+}
+
+.flex p {
+  text-decoration: none; /* Remove the default underline */
+  cursor: pointer;
+}
+
+.flex p:hover {
+  text-decoration: underline; /* Add underline on hover */
 }

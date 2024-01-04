@@ -60,8 +60,8 @@ export function ImgProducts({ img, name, price, discount }) {
                 <div className="flex-column" style={{ cursor: 'pointer' }} key={model}>
 
                     <img src={img} width='280px' alt='' />
-                    <span style={{ marginLeft: '20px' }}>{name}</span>
-                    <div style={{ display: 'flex', alignItems: 'center', marginLeft: '10px' }}>
+                    <span style={{ marginLeft: '30px' }}>{name}</span>
+                    <div style={{ display: 'flex', alignItems: 'center', marginLeft: '20px' }}>
                         <span style={{ marginLeft: '10px' }}>{discount}</span>
                         <h4 style={{ marginLeft: '10px' }}>{price}</h4>
                     </div>
