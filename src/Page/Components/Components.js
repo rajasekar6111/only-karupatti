@@ -18,8 +18,8 @@ export function ProductsImg({ img, name, price, cprice, discount }) {
                 <div className="flex-column" style={{ cursor: 'pointer' }}>
 
                     <img src={img} width='300px' alt='' />
-                    <span>{name}</span>
-                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <span style={{ marginLeft: '15px' }}>{name}</span>
+                    <div style={{ display: 'flex', alignItems: 'center', marginLeft: '10px' }}>
                         <del style={{ color: '#888' }}>{cprice}</del>
                         <span style={{ marginLeft: '10px' }}>{discount}</span>
                         <h4 style={{ marginLeft: '10px' }}>{price}</h4>
@@ -59,13 +59,16 @@ export function ImgProducts({ img, name, price, discount }) {
             {list.map((model) => (
                 <div className="flex-column" style={{ cursor: 'pointer' }} key={model}>
 
-                    <img src={img} width='300px' alt='' />
-                    <span>{name}</span>
-                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <img src={img} width='280px' alt='' />
+                    <span style={{ marginLeft: '20px' }}>{name}</span>
+                    <div style={{ display: 'flex', alignItems: 'center', marginLeft: '10px' }}>
                         <span style={{ marginLeft: '10px' }}>{discount}</span>
                         <h4 style={{ marginLeft: '10px' }}>{price}</h4>
                     </div>
-                    <button onClick={() => alert(`Button clicked for ${name}`)}>Click me</button>
+                    <button onClick={() => alert(`Button clicked for ${name}`)}
+                        style={{ height: '40px', width: '95%', borderRadius: '10px', marginLeft: '25px', border: '1px solid', cursor: 'pointer' }}
+                    >
+                        choose options</button>
                 </div>
             ))}
         </>

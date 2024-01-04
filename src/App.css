@@ -1,13 +1,14 @@
-.header {
+.offer {
   background-color: #b36b0d;
   padding: 1px;
   text-align: center;
   color: white;
+  text-decoration: underline;
   cursor: pointer;
 }
 
 
-.header-text {
+.header {
   position:sticky ;
   top: 0;
   background-color: rgb(253, 253, 251);
@@ -18,12 +19,11 @@
 }
 
 
-.head {
+.head-text {
   display: flex;
   align-items: center;
   column-gap: 20px;
   cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex {
@@ -42,6 +42,7 @@
   border-radius: 10px;
   background-color: green;
   color: white;
+  cursor: pointer;
 }
 
 .rating {
@@ -66,11 +67,25 @@
   color: #1f1d1d;
 }
 
-.field__input {
-  width: 200px;
+.footer {
+  top: 0;
+  /* background-color: rgb(192, 16, 16); */
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+input[type="email"] {
   padding: 10px;
-  border: none;
-  border-radius: 5px;
-  font-size: 14px;
-outline: none;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+  margin-left: 75px;
+  width: 30%;
+  height: 25px;
+}
+
+input[type="email"]:hover {
+  border-color: #080808;
 }
