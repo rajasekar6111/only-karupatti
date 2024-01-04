@@ -96,9 +96,9 @@ function App() {
       </div>
 
       <div className='flex'>
-          <div className='flex-column' style={{ cursor: 'pointer' }}>
-            <img src='https://onlykarupatti.com/cdn/shop/files/Karupatti.webp?v=1688581720&width=713' alt='' />
-          </div>
+        <div className='flex-column' style={{ cursor: 'pointer' }}>
+          <img src='https://onlykarupatti.com/cdn/shop/files/Karupatti.webp?v=1688581720&width=713' alt='' />
+        </div>
 
 
         <div style={{ marginTop: '120px', marginLeft: '50px' }}>
@@ -295,8 +295,8 @@ function App() {
         <img src={instagram} width='22px' alt='' />
       </div>
 
-      <div className='flex' style={{ justifyContent: 'space-between', alignItems: 'center', fontSize: '10px', cursor: 'pointer', marginTop: '30px', marginLeft: '50px'}}>
-        <div className='flex' style={{columnGap: '30px' }}>
+      <div className='flex' style={{ justifyContent: 'space-between', alignItems: 'center', fontSize: '10px', cursor: 'pointer', marginTop: '30px', marginLeft: '50px' }}>
+        <div className='flex' style={{ columnGap: '30px' }}>
           <p>© 2024, Onlykarupatti.com Powered by Shopify</p>
           <p>Refund Policy</p>
           <p>Privacy Policy</p>
@@ -305,7 +305,7 @@ function App() {
           <p>Contact Information</p>
         </div>
 
-        <div style={{marginRight: '25px', cursor: 'pointer'}}>
+        <div style={{ marginRight: '25px', cursor: 'pointer' }}>
           <img src={whatsapp} width='50px' alt='' />
         </div>
       </div>
