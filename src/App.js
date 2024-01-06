@@ -73,21 +73,21 @@ function App() {
           <p>"Discover the Power of Tradition with Our Exquisite Karupatti Powders!"</p>
         </div>
 
-        <div className='flex' style={{justifyContent: 'space-evenly'}}>
+        <div className='flex' style={{ justifyContent: 'space-evenly' }}>
           <ProductsImg img="https://onlykarupatti.com/cdn/shop/files/AJ705499_1.webp?v=1699355395&width=1946"
             name="Palm Karupatti Powder" price="RS.130.00" cprice="RS.150.00" discount="From" />
         </div>
 
-        <div className='flex' style={{ marginTop: '20px', columnGap: '  ', justifyContent: 'space-around' }}>
-          <div className='flex-column'>
+        <div className='flex' style={{ marginTop: '20px' }}>
+          <div className='flex-column' style={{ padding: '50px' }}>
             <img src='https://onlykarupatti.com/cdn/shop/files/About_us_Banner_a5c8bca4-ffbd-4b14-9066-0701258cce53.webp?v=1688491355&width=750'
               alt='' style={{ width: '750px' }} />
           </div>
 
-          <div className='flex-column'>
+          <div className='flex-column' style={{ padding: '70px' }}>
             <h1>About Us</h1>
-            <p style={{ flexWrap: 'wrap', fontSize: '25px', margin: '0px' }}>"Welcome to OnlyKarupatti,<br /> We're on a mission to create<br /> a sugar-free society by<br /> offering a delicious,<br /> healthier alternative to<br /> refined sugar. Join us in our<br /> commitment to a healthier<br /> lifestyle and explore the<br /> goodness of natural palm<br /> jaggery today."</p>
-            <button style={{ marginTop: '20px', width: '140px', lineHeight: '1.5px', height: '50px', borderRadius: '15px', border: '1px solid', backgroundColor: 'green', color: 'white' }}>More</button>
+            <p style={{ flexWrap: 'wrap', fontSize: '19px', margin: '0px', lineHeight: '28px' }}>"Welcome to OnlyKarupatti, We're on a mission to create a sugar-free society by offering a delicious, healthier alternative to refined sugar. Join us in our commitment to a healthier lifestyle and explore the goodness of natural palm jaggery today."</p>
+            <button style={{ marginTop: '20px', width: '140px', height: '50px', borderRadius: '15px', border: '1px solid', backgroundColor: 'green', color: 'white', cursor: 'pointer' }}>More</button>
           </div>
         </div>
 
@@ -96,7 +96,7 @@ function App() {
             <img src='https://onlykarupatti.com/cdn/shop/files/Karupatti.webp?v=1688581720&width=713' alt='' style={{ width: '600px' }} />
           </div>
 
-          <div className='flex-column' style={{ marginTop: '80px' }}>
+          <div className='flex-column' style={{ marginTop: '50px', marginLeft: '40px' }}>
             <div>
               <div>ONLYKARUPATTI.COM</div>
               <div style={{ fontSize: '35px' }}>Karupatti</div>
@@ -197,7 +197,7 @@ function App() {
           <p>"Indulge in the Rich Tradition of Our Karupatti Sweets!"</p>
         </div>
 
-        <div className='flex' style={{justifyContent: 'space-evenly'}}>
+        <div className='flex' style={{ justifyContent: 'space-evenly' }}>
           <KarupattiImg img="https://onlykarupatti.com/cdn/shop/files/2_1.webp?v=1699624778&width=360"
             name="Karupatti Halwaa" price="RS.199.00" cprice="RS.245.00" />
         </div>
@@ -207,7 +207,7 @@ function App() {
           <p>Choose from the Various collections of Karupatti.</p>
         </div>
 
-        <div className='flex' style={{justifyContent: 'space-evenly'}}>
+        <div className='flex' style={{ justifyContent: 'space-evenly' }}>
           <ImgProducts img="https://onlykarupatti.com/cdn/shop/files/PuttuKarupatti.webp?v=1688582326&width=823"
             name="Puttu Karupatti" price="RS.199.00" discount="From" />
         </div>
@@ -241,12 +241,12 @@ function App() {
             Our Signature Product Karupatti (Palm jaggery) is made by extracting the sap preserving all the<br /> natural goodness and nutritional benefits of the palm tree sap.
           </div>
           <div style={{ lineHeight: '25px', marginTop: '15px' }}>
-            Then it will be stored with a Traditional way of making it Dry. Then it will be shared to the Quality<br/> checker (Grandma) & then it will be delivered to you with all the Love from the Palm Farms of<br/> Tiruchendur.
+            Then it will be stored with a Traditional way of making it Dry. Then it will be shared to the Quality<br /> checker (Grandma) & then it will be delivered to you with all the Love from the Palm Farms of<br /> Tiruchendur.
           </div>
-          <button style={{width:'140px', height: '40px', borderRadius:'12px', backgroundColor: 'green', color: 'white', marginTop: '15px'}}>More About Us</button>
+          <button style={{ width: '140px', height: '40px', borderRadius: '12px', backgroundColor: 'green', color: 'white', marginTop: '15px' }}>More About Us</button>
         </div>
       </div>
-      <hr style={{color: 'lightgray', border: '1px solid'}}></hr>
+      <hr style={{ color: 'lightgray', border: '1px solid' }}></hr>
       <div className='footer'>
         <div className='flex-column'>
           <img src='https://onlykarupatti.com/cdn/shop/files/Onlykarupatti_Icon_Square_2048_x_512_px.png?v=1688227095&width=1100' width='200px' alt='' />
@@ -289,9 +289,9 @@ function App() {
         <img src={facebook} width='22px' alt='' />
         <img src={instagram} width='22px' alt='' />
       </div>
-      <hr style={{color: 'lightgray', border: '1px solid'}}></hr>
+      <hr style={{ color: 'lightgray', border: '1px solid' }}></hr>
 
-      <div className='flex' style={{ justifyContent: 'space-between', alignItems: 'center', fontSize: '10px', cursor: 'pointer', marginTop: '30px', marginLeft: '50px' }}>
+      <div className='flex' style={{ justifyContent: 'space-between', alignItems: 'center', fontSize: '10px', cursor: 'pointer', marginTop: '30px', marginLeft: '60px' }}>
         <div className='flex' style={{ columnGap: '30px' }}>
           <p>© 2024, Onlykarupatti.com Powered by Shopify</p>
           <p>Refund Policy</p>
