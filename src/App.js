@@ -166,11 +166,11 @@ function App() {
               </div>
 
               <div style={{ marginTop: '20px' }}>
-                <button style={{ width: '300px', height: '45px', borderRadius: '15px', border: '1px solid' }}>Add to cart</button>
-                <button style={{ width: '300px', height: '45px', borderRadius: '15px', border: '1px solid', backgroundColor: '#a35f06', color: 'white', marginTop: '10px' }}>Add to cart</button>
+                <button style={{ width: '300px', height: '45px', borderRadius: '15px', border: '1px solid', cursor: 'pointer' }}>Add to cart</button>
+                <button style={{ width: '300px', height: '45px', borderRadius: '15px', border: '1px solid', backgroundColor: '#a35f06', color: 'white', marginTop: '10px', cursor: 'pointer' }}>Add to cart</button>
               </div>
 
-              <div className='flex' style={{ marginTop: '15px', columnGap: '10px', marginLeft: '5px' }}>
+              <div className='flex' style={{ marginTop: '15px', columnGap: '10px', marginLeft: '5px', cursor: 'pointer' }}>
                 <img src={upload} alt='' style={{ width: '20px' }} />
                 <h5>share</h5>
               </div>
@@ -187,7 +187,7 @@ function App() {
                 <input type="radio" id="star1" name="rating" value="1" />
                 <label for="star1"></label>
               </div>
-              <div style={{ marginLeft: '10px', marginTop: '10px' }}>view full details</div>
+              <div className='view' style={{ marginLeft: '10px', marginTop: '10px', cursor: 'pointer' }}>view full details</div>
             </div>
           </div>
         </div>
@@ -243,22 +243,22 @@ function App() {
           <div style={{ lineHeight: '25px', marginTop: '15px' }}>
             Then it will be stored with a Traditional way of making it Dry. Then it will be shared to the Quality<br /> checker (Grandma) & then it will be delivered to you with all the Love from the Palm Farms of<br /> Tiruchendur.
           </div>
-          <button style={{ width: '140px', height: '40px', borderRadius: '12px', backgroundColor: 'green', color: 'white', marginTop: '15px' }}>More About Us</button>
+          <button style={{ width: '140px', height: '40px', borderRadius: '12px', backgroundColor: 'green', color: 'white', marginTop: '15px', cursor: 'pointer' }}>More About Us</button>
         </div>
       </div>
       <hr style={{ color: 'lightgray', border: '1px solid' }}></hr>
       <div className='footer'>
         <div className='flex-column'>
-          <img src='https://onlykarupatti.com/cdn/shop/files/Onlykarupatti_Icon_Square_2048_x_512_px.png?v=1688227095&width=1100' width='200px' alt='' />
+          <img src='https://onlykarupatti.com/cdn/shop/files/Onlykarupatti_Icon_Square_2048_x_512_px.png?v=1688227095&width=1100' width='200px' alt='' style={{ cursor: 'pointer' }} />
           <p>Sharing World's Best Palm<br /> Products from the Land of its<br /> Tradition.</p>
-          <div className='flex' style={{ columnGap: '10px' }}>
+          <div className='flex' style={{ columnGap: '10px', cursor: 'pointer' }}>
             <img src={facebook} width='22px' alt='' />
-            <img src={instagram} width='22px' alt='' />
+            <img src={instagram} width='32px' alt='' />
           </div>
         </div>
 
         <div className='flex-column'>
-          <div>
+          <div className='links'>
             <h3>Quick Links</h3>
             <p>Home</p>
             <p>Karupatti</p>
@@ -269,7 +269,7 @@ function App() {
         </div>
 
         <div className='flex-column'>
-          <div>
+          <div className='links'>
             <h3>Info Links</h3>
             <p>Refund Policy</p>
             <p>Privacy Policy</p>
@@ -285,9 +285,9 @@ function App() {
         <input type="email" id="email" name="email" placeholder='Email' />
       </div>
 
-      <div className='flex' style={{ columnGap: '10px', marginLeft: '90%' }}>
+      <div className='flex' style={{ columnGap: '10px', marginLeft: '90%', cursor: 'pointer' }}>
         <img src={facebook} width='22px' alt='' />
-        <img src={instagram} width='22px' alt='' />
+        <img src={instagram} width='32px' alt='' />
       </div>
       <hr style={{ color: 'lightgray', border: '1px solid' }}></hr>
 

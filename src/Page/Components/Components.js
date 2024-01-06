@@ -2,7 +2,7 @@
 
 export function ImageWithName({ img, name }) {
     return (
-        <div className='flex-column' style={{ alignItems: 'center', cursor: 'pointer' }}>
+        <div className='flex-column' style={{ alignItems: 'center'}}>
             <img src={img} alt='' style={{width: 150}}/>
             <h5 style={{ margin: '0', marginTop: '7px', fontSize: '16px' }}>{name}</h5>
         </div>

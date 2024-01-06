@@ -71,12 +71,12 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 input[type="email"] {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   transition: border-color 0.3s;
   margin-left: 75px;
   width: 30%;
@@ -85,4 +85,17 @@ input[type="email"] {
 
 input[type="email"]:hover {
   border-color: #080808;
+}
+
+.view:hover {
+  text-decoration: underline;
+}
+
+.links:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links p:hover {
+  text-decoration: underline;
 }
