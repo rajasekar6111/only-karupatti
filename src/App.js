@@ -8,6 +8,7 @@ import upload from './Icons/upload.svg'
 import facebook from './Icons/facebook.svg'
 import instagram from './Icons/instagram.svg'
 import whatsapp from './Icons/whatsapp.svg'
+import arrow from './Icons/arrow.svg'
 
 function App() {
   const [selectedSize, setSelectedSize] = useState('250g');
@@ -187,7 +188,11 @@ function App() {
                 <input type="radio" id="star1" name="rating" value="1" />
                 <label for="star1"></label>
               </div>
-              <div className='view' style={{ marginLeft: '10px', marginTop: '10px', cursor: 'pointer' }}>view full details</div>
+
+              <div className='view' style={{ marginLeft: '10px', marginTop: '10px', cursor: 'pointer' }}>
+                view full details
+                <span style={{ right: '360px' }}>&rarr;</span>
+              </div>
             </div>
           </div>
         </div>
@@ -280,14 +285,19 @@ function App() {
         <h3> A Quality Product from EP<br /> Traders.</h3>
       </div>
 
-      <div>
-        <h3 style={{ marginLeft: '80px' }}>Subscribe to our emails</h3>
-        <input type="email" id="email" name="email" placeholder='Email' />
-      </div>
+      <div className='flex'>
+        <div class="wrapper">
+          <h3 style={{ marginLeft: '80px' }}>Subscribe to our emails</h3>
+          <input type="email" id="email" name="email" placeholder='Email' />
+          <div class="icon">
+            <img src={arrow} alt='' width='20px' />
+          </div>
+        </div>
 
-      <div className='flex' style={{ columnGap: '10px', marginLeft: '90%', cursor: 'pointer' }}>
-        <img src={facebook} width='22px' alt='' />
-        <img src={instagram} width='32px' alt='' />
+        <div className='flex' style={{ columnGap: '10px', marginLeft: '800px', cursor: 'pointer', marginTop: '70px'}}>
+          <img src={facebook} width='22px' alt='' />
+          <img src={instagram} width='32px' alt='' />
+        </div>
       </div>
       <hr style={{ color: 'lightgray', border: '1px solid' }}></hr>
 
@@ -301,7 +311,7 @@ function App() {
           <p>Contact Information</p>
         </div>
 
-        <div style={{ marginRight: '25px', cursor: 'pointer' }}>
+        <div style={{ marginRight: '30px', cursor: 'pointer' }}>
           <img src={whatsapp} width='50px' alt='' />
         </div>
       </div>

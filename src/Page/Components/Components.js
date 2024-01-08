@@ -21,7 +21,7 @@ export function ProductsImg({ img, name, price, cprice, discount }) {
                     <span style={{ marginLeft: '15px' }}>{name}</span>
                     <div style={{ display: 'flex', alignItems: 'center', marginLeft: '10px' }}>
                         <del style={{ color: '#888' }}>{cprice}</del>
-                        <span style={{ marginLeft: '10px' }}>{discount}</span>
+                        <div style={{ marginLeft: '10px' }}>{discount}</div>
                         <h4 style={{ marginLeft: '10px' }}>{price}</h4>
                     </div>
                 </div>
